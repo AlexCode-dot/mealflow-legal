@@ -49,4 +49,4 @@ We may update these Terms from time to time. We will update the effective date a
 If you have questions about these Terms, contact us at:
 
 MealFlow Support
-Email: mealflow.org@gmail.com
+Email: mealflows@gmail.com

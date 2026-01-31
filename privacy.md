@@ -58,4 +58,4 @@ We may update this Privacy Policy from time to time. We will update the effectiv
 If you have questions or requests regarding this Privacy Policy, contact us at:
 
 MealFlow Support
-Email: mealflow.org@gmail.com
+Email: mealflows@gmail.com
