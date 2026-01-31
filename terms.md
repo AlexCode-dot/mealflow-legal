@@ -24,6 +24,9 @@ You agree not to:
 ## User content
 You retain ownership of content you create in the App (such as meal plans, recipes, and shopping lists). You grant MealFlow a limited, non-exclusive, worldwide license to host, store, and display your content for the purpose of operating the App.
 
+## Payments and subscriptions
+The App does not currently offer in-app purchases or subscriptions.
+
 ## Intellectual property
 The App and its content (excluding your user content) are owned by MealFlow or its licensors and are protected by applicable intellectual property laws.
 

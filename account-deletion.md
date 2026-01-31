@@ -14,4 +14,4 @@ If you can’t access the app, request deletion by email:
 - Subject: Account Deletion Request
 - Include: the email address used for your MealFlow account
 
-We will process deletion as soon as possible.
+In-app deletions are processed immediately. Email requests are processed as soon as possible.
