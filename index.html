@@ -7,47 +7,124 @@
     <style>
       :root {
         color-scheme: light;
+        --olive-900: #24381a;
+        --olive-700: #3d5a2a;
+        --olive-600: #4f6f36;
+        --olive-300: #cddcbe;
+        --beige-100: #f7f3e8;
+        --beige-200: #efe7d4;
+        --ink-900: #1f1f1f;
+        --ink-600: #59544b;
+      }
+      * {
+        box-sizing: border-box;
       }
       body {
         margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-        background: #ffffff;
-        color: #1b1b1b;
+        font-family: "Avenir Next", "Avenir", "Segoe UI", system-ui, -apple-system, sans-serif;
+        background: radial-gradient(1000px 800px at 15% -10%, #eef4e6, var(--beige-100));
+        color: var(--ink-900);
+      }
+      header {
+        background: linear-gradient(135deg, var(--olive-900), var(--olive-600));
+        color: #f9f5ea;
+        padding: 36px 24px 30px;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 28px;
+        letter-spacing: 0.4px;
+      }
+      header p {
+        margin: 8px 0 0;
+        color: rgba(249, 245, 234, 0.85);
+        font-size: 13px;
+        font-weight: 600;
       }
       .wrap {
-        max-width: 720px;
-        margin: 60px auto;
+        max-width: 760px;
+        margin: -18px auto 60px;
         padding: 0 20px;
       }
-      h1 {
-        font-size: 28px;
-        margin: 0 0 10px;
+      .card {
+        background: #fffaf1;
+        border: 1px solid rgba(61, 90, 42, 0.15);
+        border-radius: 16px;
+        padding: 22px;
+        box-shadow: 0 12px 30px rgba(24, 32, 16, 0.12);
       }
-      p {
+      .card h2 {
+        margin: 0 0 6px;
+        font-size: 18px;
+      }
+      .card p {
         margin: 0 0 18px;
-        color: #4b4b4b;
+        color: var(--ink-600);
+        font-size: 14px;
       }
-      ul {
-        padding-left: 18px;
+      .links {
+        display: grid;
+        gap: 12px;
       }
-      a {
-        color: #0b5fff;
+      .link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 16px;
+        border-radius: 12px;
+        border: 1px solid rgba(79, 111, 54, 0.22);
+        background: linear-gradient(180deg, #ffffff, #f9f4e6);
         text-decoration: none;
+        color: var(--ink-900);
+        font-weight: 700;
       }
-      a:hover {
-        text-decoration: underline;
+      .link span {
+        color: var(--olive-700);
+        font-weight: 800;
+      }
+      .chip {
+        font-size: 12px;
+        padding: 4px 8px;
+        border-radius: 999px;
+        background: rgba(205, 220, 190, 0.7);
+        color: var(--olive-700);
+        font-weight: 700;
+      }
+      footer {
+        margin-top: 14px;
+        text-align: center;
+        color: var(--ink-600);
+        font-size: 12px;
       }
     </style>
   </head>
   <body>
-    <div class="wrap">
+    <header>
       <h1>MealFlow Legal</h1>
-      <p>This page links to the public legal documents for MealFlow.</p>
-      <ul>
-        <li><a href="/mealflow-legal/privacy">Privacy Policy</a></li>
-        <li><a href="/mealflow-legal/terms">Terms of Service</a></li>
-        <li><a href="/mealflow-legal/account-deletion">Account Deletion Request</a></li>
-      </ul>
-    </div>
+      <p>Public legal documents for MealFlow</p>
+    </header>
+
+    <main class="wrap">
+      <section class="card">
+        <h2>Legal Documents</h2>
+        <p>Use the links below to review our privacy policy, terms, and account deletion process.</p>
+        <div class="links">
+          <a class="link" href="/mealflow-legal/privacy">
+            Privacy Policy
+            <span class="chip">Read</span>
+          </a>
+          <a class="link" href="/mealflow-legal/terms">
+            Terms of Service
+            <span class="chip">Read</span>
+          </a>
+          <a class="link" href="/mealflow-legal/account-deletion">
+            Account Deletion Request
+            <span class="chip">Read</span>
+          </a>
+        </div>
+      </section>
+      <footer>© MealFlow</footer>
+    </main>
   </body>
 </html>
